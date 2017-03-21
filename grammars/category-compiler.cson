@@ -1,0 +1,18 @@
+'scopeName' : 'source.category-compiler'
+'name' : 'Category-compiler'
+'fileTypes' : ['cat']
+
+'patterns' : [
+  {
+    'match' : '\\bbox\\b'
+    'name'  : 'keyword.other.category-compiler'
+  },
+  {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+    'name': 'constant.numeric.category-compiler'
+  },
+  {
+    'match': '\\b([a-z] | [A-Z] | _ | [0-9]) ([a-z] | [A-Z] | _ | \\ | < | > | [0-9])*\\b'
+    'name': 'meta.object.type-constraint.category-compiler'
+  }
+]
