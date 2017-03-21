@@ -1,5 +1,6 @@
 {
   "name": "language-category-compiler",
+  "owner": "jxt400",
   "version": "0.0.0",
   "description": "Categorical Language support in Atom",
   "engines": {
@@ -8,7 +9,9 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "name" : "language-category-compiler",
+    "owner" : "jxt400",
+    "url" : "https://github.com/jack-willturner/language-category-compiler"
   },
   "bugs": {
     "url": ""
